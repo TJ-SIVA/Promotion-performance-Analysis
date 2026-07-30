@@ -135,6 +135,7 @@ dependencies:
   - mkl=2026.1.0=hac47afa_233
   - munkres=1.1.4=pyhd8ed1ab_1
   - mysql-common=9.3.0=h2224204_0
+  - mysql-connector-python=9.3.0=py311h3e6a449_1
   - mysql-libs=9.3.0=h809f9c2_0
   - narwhals=2.24.0=pyhcf101f3_0
   - nbclient=0.11.0=pyhd8ed1ab_0
