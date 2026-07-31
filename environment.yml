@@ -159,7 +159,6 @@ dependencies:
   - pip=26.1.2=pyhc872135_0
   - pixman=0.46.4=h5112557_2
   - platformdirs=4.11.0=pyhcf101f3_0
-  - prettytable=0.7.2=py_3
   - prometheus_client=0.26.0=pyhd8ed1ab_0
   - prompt-toolkit=3.0.53=pyha770c72_0
   - prompt_toolkit=3.0.53=hd8ed1ab_0
@@ -247,6 +246,9 @@ dependencies:
   - zlib-ng=2.3.3=h0261ad2_1
   - zstd=1.5.7=h534d264_6
   - pip:
+      - prettytable==0.7.1
+      - psycopg2-binary==2.9.12
+      - pymysql==1.2.0
       - scipy==1.17.1
-      - sqlalchemy==1.4.54
+      - sqlalchemy==2.0.51
 prefix: C:\Users\wwwsi\anaconda3\envs\bbq_brothers_env
