@@ -1,0 +1,2 @@
+Requirement already satisfied: SQLALchemy in C:\Users\wwwsi\anaconda3\envs\bbq_brothers_env\Lib\site-packages (1.4.54)
+Requirement already satisfied: greenlet!=0.4.17 in C:\Users\wwwsi\anaconda3\envs\bbq_brothers_env\Lib\site-packages (from SQLALchemy) (3.5.4)
