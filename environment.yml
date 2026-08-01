@@ -11,6 +11,24 @@ dependencies:
   - asttokens=3.0.2=pyhd8ed1ab_0
   - async-lru=2.3.0=pyhcf101f3_0
   - attrs=26.1.0=pyhcf101f3_0
+  - aws-c-auth=0.10.4=hc6e9107_1
+  - aws-c-cal=0.9.14=h032d170_4
+  - aws-c-common=0.14.2=hfd05255_0
+  - aws-c-compression=0.3.2=h1da161f_4
+  - aws-c-event-stream=0.7.1=h88938e3_4
+  - aws-c-http=0.11.0=h667fc28_4
+  - aws-c-io=0.27.3=hbdc738f_1
+  - aws-c-mqtt=0.16.0=hd7b40c3_2
+  - aws-c-s3=0.12.8=hd7ee1a1_1
+  - aws-c-sdkutils=0.2.7=h1da161f_2
+  - aws-checksums=0.2.10=h1da161f_4
+  - aws-crt-cpp=0.40.1=he7c1723_3
+  - aws-sdk-cpp=1.11.833=hdf1b151_9
+  - azure-core-cpp=1.16.3=h49e36cd_0
+  - azure-identity-cpp=1.13.3=hf9fdf8e_2
+  - azure-storage-blobs-cpp=12.18.0=h4fb3251_1
+  - azure-storage-common-cpp=12.14.0=hf9fdf8e_1
+  - azure-storage-files-datalake-cpp=12.16.0=heb2e695_1
   - babel=2.18.0=pyhcf101f3_1
   - backports.zstd=1.6.0=py311h71c1bcc_0
   - beautifulsoup4=4.15.0=pyha770c72_0
@@ -20,6 +38,7 @@ dependencies:
   - brotli-bin=1.2.0=hfd05255_1
   - brotli-python=1.2.0=py311hc5da9e4_1
   - bzip2=1.0.8=h2bbff1b_6
+  - c-ares=1.34.8=hfd05255_0
   - ca-certificates=2026.7.22=h4c7d964_0
   - cached-property=1.5.2=hd8ed1ab_2
   - cached_property=1.5.2=pyha770c72_2
@@ -30,12 +49,14 @@ dependencies:
   - colorama=0.4.6=pyhd8ed1ab_1
   - comm=0.2.3=pyhe01879c_0
   - contourpy=1.3.3=py311h275cad7_4
+  - cramjam=2.11.0=py311ha4bd366_2
   - cycler=0.12.1=pyhcf101f3_2
   - debugpy=1.8.21=py311h5dfdfe8_0
   - decorator=5.3.1=pyhd8ed1ab_0
   - defusedxml=0.7.1=pyhd8ed1ab_0
   - exceptiongroup=1.3.1=pyhd8ed1ab_0
   - executing=2.2.1=pyhd8ed1ab_0
+  - fastparquet=2026.5.0=py311h17033d2_0
   - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
   - font-ttf-inconsolata=3.000=h77eed37_0
   - font-ttf-source-code-pro=2.038=h77eed37_0
@@ -46,6 +67,7 @@ dependencies:
   - fonttools=4.63.0=py311h3f79411_0
   - fqdn=1.5.1=pyhd8ed1ab_1
   - freetype=2.14.3=h57928b3_1
+  - fsspec=2026.7.0=pyhd8ed1ab_0
   - graphite2=1.3.15=hac47afa_0
   - greenlet=3.5.4=py311h5dfdfe8_0
   - h11=0.16.0=pyhcf101f3_1
@@ -92,12 +114,19 @@ dependencies:
   - lcms2=2.19.1=hf2c6c5f_1
   - lerc=4.2.0=hd936e49_0
   - libabseil=20260526.0=cxx17_h0eb2380_1
+  - libarrow=25.0.0=h20c36f3_3_cpu
+  - libarrow-acero=25.0.0=h7d8d6a5_3_cpu
+  - libarrow-compute=25.0.0=h081cd8e_3_cpu
+  - libarrow-dataset=25.0.0=h7d8d6a5_3_cpu
+  - libarrow-substrait=25.0.0=hffb5221_3_cpu
   - libblas=3.11.0=8_h8455456_mkl
   - libbrotlicommon=1.2.0=hfd05255_1
   - libbrotlidec=1.2.0=hfd05255_1
   - libbrotlienc=1.2.0=hfd05255_1
   - libcblas=3.11.0=8_h2a3cdd5_mkl
   - libclang13=22.1.8=default_hf735972_3
+  - libcrc32c=1.1.2=h0e60522_0
+  - libcurl=8.21.0=hdb0ef4a_4
   - libdeflate=1.25=h51727cc_0
   - libevent=2.1.12=h3671451_1
   - libexpat=2.8.2=hd7fb8db_1
@@ -107,6 +136,9 @@ dependencies:
   - libgcc=16.1.0=h110b43a_1
   - libglib=2.86.3=h71fae0a_3
   - libgomp=16.1.0=h8ee18e1_1
+  - libgoogle-cloud=3.7.0=hfe3f7e9_0
+  - libgoogle-cloud-storage=3.7.0=he04ea4c_0
+  - libgrpc=1.82.1=he6cc664_0
   - libhwloc=2.13.0=default_h049141e_1000
   - libiconv=1.18=hc1393d2_2
   - libintl=0.22.5=h5728263_3
@@ -114,11 +146,19 @@ dependencies:
   - liblapack=3.11.0=8_hf9ab0e9_mkl
   - liblzma=5.8.2=hfd05255_0
   - libopenjpeg=2.5.4=h1c6eee0_2
+  - libopentelemetry-cpp=1.27.0=h4cd8edf_1
+  - libopentelemetry-cpp-headers=1.27.0=h57928b3_1
+  - libparquet=25.0.0=h7051d1f_3_cpu
   - libpng=1.6.58=h7351971_0
   - libpq=17.10=h6b13b41_0
+  - libprotobuf=7.35.1=h1a71995_2
+  - libpsl=0.23.0=h9b16d47_0
   - libre2-11=2025.11.05=h45f70d9_2
   - libsodium=1.0.22=h6a83c73_1
+  - libssh2=1.11.1=h9aa295b_0
+  - libthrift=0.22.0=h2e43b2f_2
   - libtiff=4.7.1=h8f73337_1
+  - libutf8proc=2.11.3=hb980946_0
   - libwebp-base=1.6.0=h4d5522a_0
   - libwinpthread=12.0.0.r4.gg4f2fc60ca=h57928b3_10
   - libxcb=1.17.0=h0e4246c_0
@@ -127,6 +167,7 @@ dependencies:
   - libxslt=1.1.43=h0fbe4c1_1
   - libzlib=1.3.2=h1c6eee0_0
   - llvm-openmp=22.1.8=h4fa8253_0
+  - lz4-c=1.10.0=h2466b09_1
   - markupsafe=3.0.3=py311h3f79411_1
   - matplotlib=3.11.0=py311h1ea47a8_1
   - matplotlib-base=3.11.0=py311h330ff07_0
@@ -142,12 +183,14 @@ dependencies:
   - nbconvert-core=7.17.1=pyhcf101f3_0
   - nbformat=5.10.4=pyhd8ed1ab_1
   - nest-asyncio2=1.7.2=pyhcf101f3_0
+  - nlohmann_json=3.12.0=h5112557_1
   - notebook=7.6.1=pyhcf101f3_0
   - notebook-shim=0.2.4=pyhd8ed1ab_1
   - numpy=2.4.6=py311h65cb7f3_0
   - onemkl-license=2026.1.0=h57928b3_233
   - openjpeg=2.5.4=h0e57b4f_0
   - openssl=3.6.3=hf411b9b_0
+  - orc=2.3.1=hf7eca67_0
   - overrides=7.7.0=pyhd8ed1ab_1
   - packaging=26.0=py311haa95532_0
   - pandas=3.0.5=py311h0610301_1
@@ -159,12 +202,14 @@ dependencies:
   - pip=26.1.2=pyhc872135_0
   - pixman=0.46.4=h5112557_2
   - platformdirs=4.11.0=pyhcf101f3_0
+  - prometheus-cpp=1.3.0=hcea2f5d_0
   - prometheus_client=0.26.0=pyhd8ed1ab_0
   - prompt-toolkit=3.0.53=pyha770c72_0
   - prompt_toolkit=3.0.53=hd8ed1ab_0
   - psutil=7.2.2=py311hf893f09_0
   - pthread-stubs=0.4=h0e40799_1002
   - pure_eval=0.2.3=pyhd8ed1ab_1
+  - pyarrow-core=25.0.0=py311hee28c0d_0_cpu
   - pycparser=3.0=pyhcf101f3_0
   - pygments=2.20.0=pyhd8ed1ab_0
   - pyparsing=3.3.2=pyhcf101f3_0
@@ -248,6 +293,7 @@ dependencies:
   - pip:
       - prettytable==0.7.1
       - psycopg2-binary==2.9.12
+      - pyarrow==25.0.0
       - pymysql==1.2.0
       - scipy==1.17.1
       - sqlalchemy==2.0.51
